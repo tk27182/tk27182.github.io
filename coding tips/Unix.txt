@@ -1,2 +1,6 @@
 To install scalpy to the right directory:
-  sudo 
+  sudo mv /current/scalpy-master/location/ /usr/lib/python2.7/dist-packages 
+  Note: Scalpy only works in Python 2.7
+  
+To install python packages:
+  sudo apt-get install python-package
