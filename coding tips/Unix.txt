@@ -1,0 +1,2 @@
+To install scalpy to the right directory:
+  sudo 
