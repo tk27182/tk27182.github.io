@@ -1,4 +1,14 @@
 To install scalpy to the right directory:
+  First, download the .zip file from the Scalpy Github page
+  In the command line:
+    unzip scalpy-master.zip
+    cd scalpy-master
+    sudo python setup.py install
+    sudo mv /home/tkirsh/Downloads/scalpy-master/ /usr/local/lib/python2.7/dist-packages
+    cd python2.7/dist-packages
+    cd scalpy-master
+    ls
+    sudo mv scalpy /usr/local/lib/python2.7/dist-packages
   sudo mv /current/scalpy-master/location/ /usr/lib/python2.7/dist-packages 
   Note: Scalpy only works in Python 2.7
   
