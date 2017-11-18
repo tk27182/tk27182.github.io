@@ -1,1 +1,6 @@
-This is for my resume.
+---
+layout: page
+title: CV
+---
+
+This is for my resume
