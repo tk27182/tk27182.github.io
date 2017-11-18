@@ -1,4 +1,7 @@
-theme: jekyll-theme-midnight
 title: Thomas Kirsh
+author: Thomas Kirsh
+email: tkirsh2@illinois.edu
 description: Feel free to bookmark this page to follow my project updates.
-permalink: /Home
+
+
+theme: jekyll-theme-midnight
