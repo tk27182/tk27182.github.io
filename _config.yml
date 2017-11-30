@@ -2,6 +2,7 @@ title: Thomas Kirsh
 author: Thomas Kirsh
 email: tkirsh2@illinois.edu
 description: Feel free to bookmark this page to follow my project updates.
+github-username: tk27182
 
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
