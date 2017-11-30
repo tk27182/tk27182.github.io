@@ -3,5 +3,5 @@ author: Thomas Kirsh
 email: tkirsh2@illinois.edu
 description: Feel free to bookmark this page to follow my project updates.
 
-
-theme: midnight
+markdown: kramdown
+theme: jekyll-theme-midnight
