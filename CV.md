@@ -4,8 +4,7 @@ title: CV
 ---
 
 
-### Thomas Kirsh
----
+### Thomas Kirsh ___
 
 ##### EDUCTATION
 ---
