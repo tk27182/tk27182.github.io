@@ -1,11 +1,17 @@
-## Thomas Kirsh
+### Thomas Kirsh
+---
 
-### EDUCTATION
+##### EDUCTATION
+---
 
-### PROFESSIONAL EXPERIENCE
+##### PROFESSIONAL EXPERIENCE
+---
 
-### AWARDS
+##### AWARDS
+---
 
-### PATENTS
+##### PATENTS
+---
 
-### COMPUTER SKILLS
+##### COMPUTER SKILLS
+---
