@@ -1,4 +1,4 @@
-![alt text](https://github.com/tk27182/tk27182.github.io/blob/master/images/IMG_5385.JPG)
+<img src="images/IMG_5385.JPG" alt="hi" class="inline"/>
 
 Currently, I am a research scientist at the University of Illinois at Urbana-Champaign where I work on cosmology and nonlinear dynamics research. Both cosmology projects I work on study the large-scale structure of the universe. One project focuses on using machine learning techniques to classify galaxies as clusters, filaments, or voids. The other project studies helium reionization and the effect on the cosmic microwave background (CMB). The nonlinear dynamics project I work on studies self-targeting wireless power transmission in the far-field.
 
