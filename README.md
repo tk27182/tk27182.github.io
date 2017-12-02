@@ -1,5 +1,4 @@
-![](images/tinyprofpic.jpg)  
-
+<img src="images/tinyprofpic.jpg" width="100">
 Currently, I am a research scientist at the University of Illinois at Urbana-Champaign where I work on cosmology and nonlinear dynamics research. Both of the cosmology projects I work on study the large-scale structure of the universe. One project focuses on using machine learning techniques to classify galaxies as clusters, filaments, or voids. The other project studies helium reionization and the effect on the cosmic microwave background (CMB). The nonlinear dynamics project I work on studies self-targeting wireless power transmission in the far-field.
 
 I graduated from the University of Illinois in May 2017 with degrees in physics and astronomy, along with minors in mathematics and communications. I am applying to graduate schools where I plan on pursuing a PhD in astrophysics. 
