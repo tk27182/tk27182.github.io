@@ -5,18 +5,19 @@ title: CV
 
 
 ***
-
-### EDUCATION                                       
-                                                      
-##### B.S. Physics, B.S. Astronomy                                                May 2017 
-      University of Illinois at Urbana-Champaign                             GPA: 3.51/4.0
-      with minors in Mathematics and Communication
+### EDUCATION
+2013-2017
+**B.S. Physics, B.S. Astronomy**                                               
+University of Illinois at Urbana-Champaign                             
+*Minors: Mathematics, Communications*
+GPA: 3.51/4.0
 
 ***
 ### PROFESSIONAL EXPERIENCE
 
 ***
 ### AWARDS
+**Honorable Mention**
 NSF Graduate Research Fellowship Program
 
 ***
@@ -25,5 +26,10 @@ NSF Graduate Research Fellowship Program
 
 ***
 ### COMPUTER SKILLS
-Python (Scikit-learn, Numpy, Scipy, Matplotlib, Pandas, Seaborn, SQL), MATLAB, LaTeX, Origin Pro, Microsoft Office (Word, Excel, PowerPoint), Mathematica
+- Python
+- MATLAB
+- LaTeX
+- Origin Pro
+- Microsoft Office (Word, Excel, PowerPoint)
+- Mathematica
 
