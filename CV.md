@@ -35,7 +35,8 @@ GPA: 3.51/4.0
 - Conducted microwave experiments to demonstrate power flow efficiency using digital radio  
 
 ***
-### AWARDS
+### AWARDS  
+**March 2017**  
 **Honorable Mention**  
 NSF Graduate Research Fellowship Program
 
