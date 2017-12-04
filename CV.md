@@ -38,7 +38,10 @@ GPA: 3.51/4.0
 ### AWARDS  
 **March 2017**  
 **Honorable Mention**  
-NSF Graduate Research Fellowship Program
+NSF Graduate Research Fellowship Program  
+  
+**Spring 2017**  
+Dean's List for College of Liberal Arts & Sciences
 
 ***
 ### PATENTS  
