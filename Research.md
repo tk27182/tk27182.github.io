@@ -22,7 +22,7 @@ This dataset was used to test the machine learning algorithm with a similar data
 </table>  
   
   
-The predictions are shown in a ROC curve.  
+The accuracy of the predictions are shown in a ROC curve.  
   
 <table class="image">
 <caption align="bottom">Figure 3: ROC curve for data.</caption>
@@ -45,7 +45,7 @@ Running my algorithm on the MICE data produced some predictions that weren't qui
 </table>
   
   
-Currently, I am testing a new method of generating my simulation data that isolates the clusters and filaments better. AFter that I will test results from the YT halo finder.  
+Currently, I am testing a new method of generating my simulation data that isolates the clusters and filaments better. After that I will test results from the YT halo finder.  
 
 ### Helium Reionization  
   
