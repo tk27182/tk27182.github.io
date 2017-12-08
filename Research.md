@@ -37,6 +37,15 @@ Next, I obtain a slice of data from the MICE catalog. I use the data in Figure 1
 </table>  
   
 
+Running my algorithm on the MICE data produced some predictions that weren't quite correct.
+  
+<table class="image">
+<caption align="bottom">Figure 5: Predicted classifications for galaxies in the MICE data.</caption>
+<tr><td><img src="images/adata_predictions.png" width = "600"></td></tr>
+</table>
+  
+  
+Currently, I am testing a new method of generating my simulation data that isolates the clusters and filaments better. AFter that I will test results from the YT halo finder.  
 
 ### Helium Reionization  
   
