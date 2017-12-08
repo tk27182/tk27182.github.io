@@ -13,6 +13,7 @@ This project is being worked on under [Matias Carrasco-Kind](matias-ck.com). I h
 <tr><td><img src="images/adata_image.png" width = "600"></td></tr>
 </table>  
   
+  
 This dataset was used to test the machine learning algorithm with a similar dataset.
 
 <table class="image">
@@ -20,12 +21,14 @@ This dataset was used to test the machine learning algorithm with a similar data
 <tr><td><img src="images/bdata.png" width = "600"></td></tr>
 </table>  
   
+  
 The predictions are shown in a ROC curve.  
   
 <table class="image">
 <caption align="bottom">Figure 3: ROC curve for data.</caption>
 <tr><td><img src="images/ROC_2.png" width = "600"></td></tr>
 </table>  
+  
   
 Next, I obtain a slice of data from the MICE catalog. I use the data in Figure 1 as training data and run my algorithm on the MICE data.  
 <table class="image">
