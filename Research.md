@@ -8,9 +8,11 @@ title: Research
 ### Applying Machine Learning to Large-Scale Structure  
 This project is being worked on under [Matias Carrasco-Kind](matias-ck.com). I have been studying how we can use machine learning to classify galaxies as being part of clusters, filaments, or voids. To begin, I create my own simulation data. First I create the clusters, then the filaments, and lastly the void or "noise" data. Clusters are in red, filaments are in black, and voids are in blue.  
   
-<center><img src="images/df4.png" width = "600"></center>  
+<center><img src="images/adata_image.png" width = "600"></center>  
   
-This dataset is 
+This dataset was used to test the machine learning algorithm wiht a similar dataset. The predictions are shown in a ROC curve.
+
+<center><img src="images/bdata.png" width = "600"></center>
 
 ### Helium Reionization  
   
