@@ -10,7 +10,7 @@ from scipy.integrate import dblquad
 
 start = time.time()
 
-z = np.linspace(2.69, 4.52, 10)
+z = np.linspace(0.1, 4.52, 10)
 
 def CMD(z):
     c = 3e5
@@ -42,7 +42,7 @@ def n_b(z):
     '''
     R = np.linspace(0.01,60,100)
     sigma = np.log(2)
-    Ravg = 47.72*(3-z) #-47.72*z + 231.68 
+    Ravg = -47.72*z + 231.68 
     PR = [(1/r) * 1/np.sqrt(2*np.pi*sigma**2)*np.exp(-(np.log((r/Ravg)))**2/(2*sigma**2)) for r in R]
     
     return PR
@@ -122,17 +122,17 @@ def F(k, z): # Trying to use z float instead of zarray
     F = top/bot 
     return F 
 
-def G3(k, z):
-    y = LCDM(0.3)
-    theta_array = np.linspace(0,np.pi,10)
-    fxy = lambda kp, theta: (kp**2/(2*np.pi)**2)*np.sin(theta)*y.Pk_bbks(abs(k**2 + kp**2 - 2*k*kp*np.cos(theta)),0)*F(kp,z)
-    fg3 = lambda theta: scipy.integrate.simps(fxy(np.logspace(-3,0,10),10),np.logspace(-3,0,10))
-    return scipy.integrate.simps([fg3(i) for i in theta_array], theta_array)
-def G2(k, z):
-    y = LCDM(0.3)
-    fg = lambda kp, theta: (kp**2/(2*np.pi)**2)*np.sin(theta)*y.Pk_bbks(abs(k**2 + kp**2 - 2*k*kp*np.cos(theta)),0)*F(kp,z)
-    area = dblquad(fg, 1, 10, lambda theta: 0, lambda theta: np.pi)
-    return area[0]#dblquad(fg, 1, 1000, lambda theta: 0, lambda theta: np.pi)
+#def G3(k, z):
+#    y = LCDM(0.3)
+#    theta_array = np.linspace(0,np.pi,10)
+#    fxy = lambda kp, theta: (kp**2/(2*np.pi)**2)*np.sin(theta)*y.Pk_bbks(abs(k**2 + kp**2 - 2*k*kp*np.cos(theta)),0)*F(kp,z)
+#    fg3 = lambda theta: scipy.integrate.simps(fxy(np.logspace(-3,0,10),10),np.logspace(-3,0,10))
+#    return scipy.integrate.simps([fg3(i) for i in theta_array], theta_array)
+#def G2(k, z):
+#    y = LCDM(0.3)
+#    fg = lambda kp, theta: (kp**2/(2*np.pi)**2)*np.sin(theta)*y.Pk_bbks(abs(k**2 + kp**2 - 2*k*kp*np.cos(theta)),0)*F(kp,z)
+#    area = dblquad(fg, 1, 10, lambda theta: 0, lambda theta: np.pi)
+#    return area[0]#dblquad(fg, 1, 1000, lambda theta: 0, lambda theta: np.pi)
 
 def G(k, z): # Trying to use z float instead of zarray
     kparray = np.logspace(-3,0,10)
@@ -155,7 +155,7 @@ def G(k, z): # Trying to use z float instead of zarray
     
 def Pxe(k, z): # changed karray to k
     xe = 0.25
-    g = G2(k, z)
+    g = G(k, z)
     f = F(k, z)
     PXE = xe*(1-xe)*(f + g) 
     return PXE    
