@@ -10,7 +10,7 @@ from scipy.integrate import dblquad
 
 start = time.time()
 
-z = np.linspace(0.1, 4.52, 10)
+z = np.linspace(2.69, 4.52, 10)
 
 def CMD(z):
     c = 3e5
@@ -43,11 +43,11 @@ def n_b(z):
     R = np.linspace(0.01,60,100)
     sigma = np.log(2)
     Ravg = -47.72*z + 231.68 
-    PR = [(1/r) * 1/np.sqrt(2*np.pi*sigma**2)*np.exp(-(np.log((r/Ravg)))**2/(2*sigma**2)) for r in R]
+    PR = [(1/r) * 1/np.sqrt(2*np.pi*sigma**2)*np.exp(-(np.log(abs(r/Ravg)))**2/(2*sigma**2)) for r in R]
     
     return PR
 
-def Vb():
+def Vb(z):
     '''
     Parameters
     ------------
@@ -58,8 +58,14 @@ def Vb():
     VR: A float A list - list of volumes of the bubbles
     '''
     R = np.linspace(0.01,60,100)
-    VR = [(4*np.pi/3) * r**3 for r in R]
-    
+    sigma = np.log(2)
+    Ravg = -47.72*z + 231.68
+    VR = [] 
+    #VR = [(4*np.pi/3) * r**3 for r in R]
+    for i in range(len(R)):
+        v = 3*np.sqrt(np.pi/2)*Ravg**3 * np.exp(9*sigma**2/2) *sigma*scipy.special.erf((3*sigma**2-np.log(R[i]/Ravg))/(np.sqrt(2)*sigma)) + R[i]**3 * np.exp(-(np.log(R[i]/Ravg))**2/(2*sigma**2))
+        V = 4*np.pi*(.00438*z-0.0124)/(3*np.sqrt(2*np.pi*sigma**2)) * v
+        VR.append(V)
     return VR
 
 def Fdenom(z):
@@ -75,7 +81,7 @@ def Fdenom(z):
     FB: A float A list - integ
     '''
     PR = n_b(z)
-    VB = Vb()
+    VB = Vb(z)
     FB = [p*v for p, v in zip(PR, VB)]
     return scipy.integrate.trapz(FB)
 
@@ -106,7 +112,7 @@ def Fnum(k, z):
     FT: a float
     '''
     P = n_b(z)
-    V = Vb()
+    V = Vb(z)
     Wkr = W(k)
     Fpv = [p * v**2 for p, v in zip(P, V)]
     FT = [f * w**2 for f, w in zip(Fpv, Wkr)] 
