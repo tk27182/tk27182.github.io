@@ -47,7 +47,7 @@ Running my algorithm on the MICE data produced some predictions that weren't qui
   
 Currently, I am testing a new method of generating my simulation data that isolates the clusters and filaments better. After that I will test results from the YT halo finder.  
   
-Additionally, I am beginning to work on creating a video that shows the evolution of halos in the future. Right now, we have snapshots of the haloes at a = 1, a = 1.5, a = 8, a = 10, and a = 100. As time goes on, the halos become more and more spherical as galaxies move closers and expansion moves halos apart.
+Additionally, I am beginning to work on creating a video that shows the evolution of halos in the future, using [Blue Waters](http://www.ncsa.illinois.edu/enabling/bluewaters). Right now, we have snapshots of the haloes at a = 1, a = 1.5, a = 8, a = 10, and a = 100. As time goes on, the halos become more and more spherical as galaxies move closers and expansion moves halos apart.
   
 <table class="image">
 <caption align="bottom">Figure 6: Evolution of a halo.</caption>
