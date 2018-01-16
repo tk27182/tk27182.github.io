@@ -49,10 +49,11 @@ Dean's List for College of Liberal Arts & Sciences
 
 ***
 ### COMPUTER SKILLS
-- Python
+- Python (including ScikitLearn for data science applications)
 - MATLAB
 - LaTeX
 - Origin Pro
 - Microsoft Office (Word, Excel, PowerPoint)
-- Mathematica
+- Mathematica  
+- Blue Waters supercomputer
 
