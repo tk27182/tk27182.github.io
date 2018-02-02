@@ -55,5 +55,6 @@ Dean's List for College of Liberal Arts & Sciences
 - Origin Pro
 - Microsoft Office (Word, Excel, PowerPoint)
 - Mathematica  
-- Blue Waters supercomputer
+- Blue Waters
+- Gadget2
 
