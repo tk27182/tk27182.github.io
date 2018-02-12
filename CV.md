@@ -17,8 +17,8 @@ GPA: 3.51/4.0
 **May 2017 - present**  
 **National Center for Supercomputing Applications** ***(Matias Carrasco Kind)***, **Urbana, IL**  
 - Simulated galaxies in large-scale structure using Python  
-- Applied machine learning techniques to classify galaxies as clusters, filaments, and voids  
-- Compared results to other halo finders  
+- Applied machine learning algorithms to classify galaxies as clusters, filaments, and voids  
+- Compared predictions to predictions from other halo finders 
   
 **University of Illinois Department of Physics, Urbana, IL** 
   
@@ -29,9 +29,8 @@ GPA: 3.51/4.0
   
 **August 2014 - present**  
 ***Research Assistant, Wireless Power Transmission (Prof. Alfred Hübler)***  
-- Published one paper, with another in the works, and applied for a patent  
-- Created MATLAB simulations to understand the behavior of the system of oscillators to determine the best resistance that provides the most power  
-- Computed the optimal amplitudes and phase shifts that transfer the most power  
+- Published one paper, with another in the works, and filed a patent application  
+- Determined optimal parameters for optimal power using MATLAB simulations  
 - Conducted microwave experiments to demonstrate power flow efficiency using digital radio  
 
 ***
@@ -39,6 +38,7 @@ GPA: 3.51/4.0
 **March 2017**  
 **Honorable Mention**  
 NSF Graduate Research Fellowship Program  
+- Approximately 13% of 13,000 applicants receive an Honorable Mention
   
 **Spring 2017**  
 Dean's List for College of Liberal Arts & Sciences
@@ -49,7 +49,9 @@ Dean's List for College of Liberal Arts & Sciences
 
 ***
 ### COMPUTER SKILLS
-- Python (including Scikit-Learn for data science applications)
+- Python (Scikit-learn, Twitter API, email, NLP, text analysis, Numpy, Scipy, Matplotlib, Pandas, Seaborn, SQL, Hadoop, NoSQL, Spark, Pig)  
+- Unix command line  
+- Bash shell scripting  
 - MATLAB
 - LaTeX
 - Origin Pro
