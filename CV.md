@@ -16,21 +16,23 @@ GPA: 3.51/4.0
 ### PROFESSIONAL EXPERIENCE  
 **May 2017 - present**  
 **National Center for Supercomputing Applications** ***(Matias Carrasco Kind)***, **Urbana, IL**  
-- Simulated galaxies in large-scale structure using Python  
-- Applied machine learning algorithms to classify galaxies as clusters, filaments, and voids  
-- Compared predictions to predictions from other halo finders 
+- Created a simulation of 10000 galaxies using Python and calculated 22 statistical features  
+- Applied algorithms to classify galaxies into 3 structural classes  
+- Tested algorithms on MICE simulation data and identified galaxies in clusters, filaments, and voids  
+- Compared predictions between two halo finders to determine which predicts better  
+ 
   
 **University of Illinois Department of Physics, Urbana, IL** 
   
 **May 2017 - present**  
 ***Research Assistant, Helium Reionization (Prof. Gilbert Holder)***  
-- Calculated the optical depth of helium ionized bubbles  
-- Modeled the CMB angular power spectrum to show effects of the helium bubbles  
+- Calculated the optical depth of helium ionized bubbles and derived an equation 
+- Analyzed effects of the helium bubbles by modeling the CMB angular power spectrum  
   
 **August 2014 - present**  
 ***Research Assistant, Wireless Power Transmission (Prof. Alfred Hübler)***  
-- Published one paper, with another in the works, and filed a patent application  
-- Determined optimal parameters for optimal power using MATLAB simulations  
+- Published one paper and filed a patent application on Wireless Energy Transfer
+- Determined best parameters for optimal power using MATLAB simulations
 - Conducted microwave experiments to demonstrate power flow efficiency using digital radio  
 
 ***
