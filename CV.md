@@ -34,6 +34,16 @@ GPA: 3.51/4.0
 - Published one paper and filed a patent application on Wireless Energy Transfer
 - Determined best parameters for optimal power using MATLAB simulations
 - Conducted microwave experiments to demonstrate power flow efficiency using digital radio  
+  
+*** 
+### Activities  
+**University of Illinois Astronomical Society** 
+**President:  August 2015 – May 2017**
+**Secretary:  August 2014 – May 2015**  
+- Coordinated and organized Observatory Open Houses, attracted an average of 100 guests per night
+- Organized and directed 5 committees to increase membership.  Increased club membership by 25%.
+- Trained and evaluated over 100 club members to use the 12” refractor dome telescope 
+- Operated 12” refractor for 42 Open Houses, training members, and private viewing sessions
 
 ***
 ### AWARDS  
@@ -57,7 +67,6 @@ Dean's List for College of Liberal Arts & Sciences
 - MATLAB
 - LaTeX
 - Origin Pro
-- Microsoft Office (Word, Excel, PowerPoint)
 - Mathematica  
 - Blue Waters
 - Gadget2
