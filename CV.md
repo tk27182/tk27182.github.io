@@ -37,8 +37,8 @@ GPA: 3.51/4.0
   
 *** 
 ### Activities  
-**University of Illinois Astronomical Society** 
-**President:  August 2015 – May 2017**
+**University of Illinois Astronomical Society**  
+**President:  August 2015 – May 2017**  
 **Secretary:  August 2014 – May 2015**  
 - Coordinated and organized Observatory Open Houses, attracted an average of 100 guests per night
 - Organized and directed 5 committees to increase membership.  Increased club membership by 25%.
