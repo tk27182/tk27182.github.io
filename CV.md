@@ -6,6 +6,10 @@ title: CV
 
 ***
 ### EDUCATION
+**2020-present**
+**University of Minnesota - Twin Cities**
+M.S. in Computer Science
+
 **2013-2017**  
 **University of Illinois at Urbana-Champaign**  
 B.S. Physics, B.S. Astronomy  
@@ -14,8 +18,8 @@ GPA: 3.51/4.0
 
 ***
 ### PROFESSIONAL EXPERIENCE  
-**November 2018 - present **
-** Institute for Health Informatics, University of Minnesota - Twin Cities**
+**November 2018 - present**  
+**Institute for Health Informatics, University of Minnesota - Twin Cities**
 
 1. Run analysis on physical and mental illness datasets by:
  - Cleaning and performing exploratory data analysis to verify data integrity
