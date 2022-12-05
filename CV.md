@@ -14,7 +14,33 @@ GPA: 3.51/4.0
 
 ***
 ### PROFESSIONAL EXPERIENCE  
-**May 2017 - present**  
+**November 2018 - present **
+** Institute for Health Informatics, University of Minnesota - Twin Cities**
+
+1. Run analysis on physical and mental illness datasets by:
+ - Cleaning and performing exploratory data analysis to verify data integrity
+ - Maintaining and documenting analytical datasets
+ - Building and running predictive models using supervised and unsupervised techniques 
+ - Visualizing the performance metrics of the models for interpretation
+ - Using Git and Github for version control and to develop best practices
+ - Developing and modifying software and demonstrations. Creating documentation for all software, code, and experiments
+ - Writing and helping to prepare technical reports and publications
+ - Communicating and presenting analytical results to customers, scientists, and clinicians.
+
+2. Built a web app using Flask and Dash that works with NIH datasets by:
+ - scraping information to build data dictionaries
+ - processing and cleaning the raw data (based on patterns in the data formatting)
+ - visualizes the data via a table, histogram, bar chart, heatmap, line plot, and box and violinplots
+ - merging multiple datasets efficiently column-based and row-based using raw Python
+ - transforms datasets from a longitudinal format to a wide format
+ - calculates descriptive statistics of the input file
+ - shareable as an executable for MacOS and Windows using Github Releases
+
+3. Developed an R package based on a colleague's code for internal use to facilitate topological data analysis among our team
+ - Maintained using Git and Github
+
+
+**May 2017 - September 2018**  
 **National Center for Supercomputing Applications** ***(Matias Carrasco Kind)***, **Urbana, IL**  
 - Created a simulation of 10000 galaxies using Python and calculated 22 statistical features  
 - Applied algorithms to classify galaxies into 3 structural classes  
@@ -34,16 +60,6 @@ GPA: 3.51/4.0
 - Published one paper and filed a patent application on Wireless Energy Transfer
 - Determined best parameters for optimal power using MATLAB simulations
 - Conducted microwave experiments to demonstrate power flow efficiency using digital radio  
-  
-*** 
-### Activities  
-**University of Illinois Astronomical Society**  
-**President:  August 2015 – May 2017**  
-**Secretary:  August 2014 – May 2015**  
-- Coordinated and organized Observatory Open Houses, attracted an average of 100 guests per night
-- Organized and directed 5 committees to increase membership.  Increased club membership by 25%.
-- Trained and evaluated over 100 club members to use the 12” refractor dome telescope 
-- Operated 12” refractor for 42 Open Houses, training members, and private viewing sessions
 
 ***
 ### AWARDS  
@@ -61,13 +77,8 @@ Dean's List for College of Liberal Arts & Sciences
 
 ***
 ### COMPUTER SKILLS
-- Python (Scikit-learn, Twitter API, email, NLP, text analysis, Numpy, Scipy, Matplotlib, Pandas, Seaborn, SQL, Hadoop, NoSQL, Spark, Pig)  
-- Unix command line  
-- Bash shell scripting  
+- Python (Scikit-learn, Numpy, Scipy, Matplotlib, Pandas, Seaborn, Tensorflow)  
 - MATLAB
-- LaTeX
-- Origin Pro
-- Mathematica  
-- Blue Waters
-- Gadget2
+- R
+- Unix command line  
 
