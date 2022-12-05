@@ -6,9 +6,10 @@ title: CV
 
 ***
 ### EDUCATION
-**2020-present**
-**University of Minnesota - Twin Cities**
-M.S. in Computer Science
+**2020-present**  
+**University of Minnesota - Twin Cities**  
+M.S. in Computer Science  
+*Thesis description: Predicting hypoglycemic events in diabetic patients up to 5 hours in advance using neural networks*
 
 **2013-2017**  
 **University of Illinois at Urbana-Champaign**  
